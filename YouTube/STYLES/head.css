@@ -1,0 +1,93 @@
+.head{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: white;
+    z-index: 1;
+}
+
+.head-left{
+    display: flex;
+    width: 230px;
+    min-width: 230px;
+} 
+.head-mid{
+    flex: 1;
+    min-width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+.yticon{
+    width: 60%;
+    align-self: center;
+    padding-left: 75px;
+}
+
+.searchbar{
+    color: black;
+    font-size: 1em;
+    padding: 8px 5px 8px 15px;
+    border: solid 1px lightgray;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    min-width: 10px;
+    width: 40%;
+    height: 19px;
+}
+.searchbar:focus{
+    outline: none;
+    border-color: blue;
+    background: rgb(250, 250, 245);
+}
+.search-icon{
+    width: 24px;
+}   
+.search-button{
+    background-color: white;
+    border: solid 1px lightgray;
+    padding: 3px 15px 3px 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 51px;
+    height: 37px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.search-button:hover{
+    background: rgb(250, 250, 245);
+}
+
+.right{
+    display: flex;
+}
+.head-button{
+    align-self: center;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    cursor: pointer;
+
+}
+.head-button:hover{
+    background: #f0f0f0;
+}
+
+.head-right{
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    min-width: 150px;
+    padding-right: 20px;
+
+}
+
+.top-channel{
+    width: 40px;
+    border-radius: 50%;
+}

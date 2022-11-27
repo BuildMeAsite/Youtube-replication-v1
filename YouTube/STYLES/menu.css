@@ -1,0 +1,37 @@
+.icon,.label{
+    vertical-align: middle;
+}
+
+.left-side{
+    height: 100%;
+    position: fixed;
+    width: 75px;
+    display: grid;
+    grid-template-rows: 61px repeat(7,68px);
+    place-items: center;
+    row-gap: 7px;
+    z-index: 1;
+}
+.menu-button-top{
+    width: 70%;
+    height: 90%;
+    background: transparent;
+    border-radius: 40px;
+    border: none;
+
+}
+.menu-button{
+    width: 80%;
+    height: 105%;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.label-button{
+    font-weight: 300;
+    font-size: .65em;
+}
+.menu-button-top:hover,.menu-button:hover{
+    background: #f0f0f0;
+}
